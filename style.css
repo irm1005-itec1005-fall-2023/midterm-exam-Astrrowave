@@ -1,75 +1,143 @@
 
-html {
-  font-size: 1.0rem;
-}
+body {
 
-body {font-family: Arial, Helvetica, sans-serif
-  ; 
-  background-color: bisque;
-  
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 
-  margin-left: 2remem;
-  margin-right: 2rem;
-}
+    background-color: #e6cdab;
 
-.Coffe-Container {display: flex;
-  background-color: aquamarine
-  ; justify-content: center;
-  align-items: center;
-  }
-  
-.Coffee {display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-margin-left: 2rem;
-margin-right: 2rem;}
-
-.img {
-  object-fit: cover;
-  margin-bottom: 1em;
-  width: 20rem;
-  height: 20rem;
  
-}
 
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
 
-.Coffee :nth-child(2) {color: burlywood;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+    align-items: center;
 
-.Coffee :nth-child(3) {color: brown}
+ 
 
-.Coffee :nth-child(4) {color: blanchedalmond;}
+    margin-left: 1rem;
 
-.price {margin-top: 2rem;
-text-decoration: none;
-background-color: white;
-color:aliceblue;
-padding: 1rem;
-border-radius: 4rem;
-text-decoration: none;
-}
-
-.Buy-now {margin-top: 2rem;
-}
-
-.btn {
-  background-color: brown;
-  color:aliceblue;
-  padding: 1rem;
-  border-radius: 4rem;
-  text-decoration: none;
-
-
+    margin-right: 1rem;
 
 }
+
+ 
+
+.coffee-container {
+
+    width: 300px;
+
+    height: 530px;
+
+    background-color: #f8f7f5;
+
+    margin: 20px;
+
+    border-radius: 30px;
+
+    justify-content: center;
+
+    align-items:center;
+
+   
+
+  }
+
+ 
+
+ 
+
+  .coffee-image {
+
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 10%;
+
+  }
+
+ 
+
+ 
+
+  .coffee-details {
+
+    color:#732f08
+
+  }
+
+ 
+
+  
+
+  .coffee-title {
+
+    font-size: 15px;
+
+    color: #732f08;
+
+  }
+
+ 
+
+    .coffee-description {
+
+        font-size: 16px;
+
+        color: #732f08;
+
+        margin: 10px 0;
+
+    }
+
+  .buy-now-button {
+
+    display: flex;
+
+    justify-content: center;
+
+  }
+
+ 
+
+  .buy-now-button {
+
+    background-color: #402305;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 5px 10px;
+
+    margin-right: 10px;
+
+    margin-left: 10px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+  }
+
+  .coffee-price {
+
+    font-size: 30px;
+
+    color: #732f08;
+
+    margin: 10px 0;
+
+    font-weight: bold;
+
+  }
