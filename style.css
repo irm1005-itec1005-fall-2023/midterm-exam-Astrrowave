@@ -1,37 +1,75 @@
-/*
- * CSS File for the solution
- * Midterm Exam
- * You got this!
- */
-
-/*
- * COLOUR PALETTE
- *
- * YOU DO NOT NEED TO USE THESE COLOURS, BUT YOU CAN IF YOU WANT TO
- *   #ede0d4
- *   #e6ccb2
- *   #ddb892
- *   #b08968
- *   #7f5539
- *   #9c6644
- *
- * https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
- */
-
-/*
- * The width of my Product Card in the screenshot was 400px
- * You can use that width or set your own width
- */
-
-/*
- * HINT: For making image fill the container use object-fit:cover property:
- *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
- */
 
 html {
   font-size: 1.0rem;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body {font-family: Arial, Helvetica, sans-serif
+  ; 
+  background-color: bisque;
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2remem;
+  margin-right: 2rem;
+}
+
+.Coffe-Container {display: flex;
+  background-color: aquamarine
+  ; justify-content: center;
+  align-items: center;
+  }
+  
+.Coffee {display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-left: 2rem;
+margin-right: 2rem;}
+
+.img {
+  object-fit: cover;
+  margin-bottom: 1em;
+  width: 20rem;
+  height: 20rem;
+ 
+}
+
+
+
+.Coffee :nth-child(2) {color: burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Coffee :nth-child(3) {color: brown}
+
+.Coffee :nth-child(4) {color: blanchedalmond;}
+
+.price {margin-top: 2rem;
+text-decoration: none;
+background-color: white;
+color:aliceblue;
+padding: 1rem;
+border-radius: 4rem;
+text-decoration: none;
+}
+
+.Buy-now {margin-top: 2rem;
+}
+
+.btn {
+  background-color: brown;
+  color:aliceblue;
+  padding: 1rem;
+  border-radius: 4rem;
+  text-decoration: none;
+
+
+
 }
